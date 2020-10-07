@@ -1,5 +1,5 @@
 # ECMWF magics++ PKGBUILD for my Arch Linux machine 
-Original PKGBUILD from Anton Bazhenov and Graziano Giuliani taken from the [AUR](https://aur.archlinux.org/magics++.git).
+Original PKGBUILD from Anton Bazhenov and Graziano Giuliani taken from the [AUR](https://aur.archlinux.org/packages/magics%2B%2B/).
 My own build, main changes to the original are 
 
 `pkgver`

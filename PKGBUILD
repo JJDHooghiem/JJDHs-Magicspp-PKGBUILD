@@ -33,6 +33,7 @@ build() {
     -DCMAKE_CXX_COMPILER=g++ -DCMAKE_CC_COMPILER=gcc \
     -DCMAKE_INSTALL_PREFIX=/usr -DCMAKE_BUILD_TYPE=production \
     -DCMAKE_INSTALL_DATADIR=/usr/share \
+    -DENABLE_PYTHON=1\
     -DENABLE_METVIEW=1 -DENABLE_QT5=1 -DPYTHON_EXECUTABLE=/usr/bin/python3 ..
       sed -i magics.pc-pkg-config-build.cmake -e '/REPLACE/s/++/\\\\+\\\\+/'
   make || return 1

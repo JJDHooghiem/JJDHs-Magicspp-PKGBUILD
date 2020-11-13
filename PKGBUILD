@@ -3,7 +3,7 @@
 # My own build, orginal by the above contributors see their pkgbuild on the AUR
 pkgname=magics++
 Pkgname=Magics
-pkgver=4.5.0
+pkgver=4.5.1
 _attnum=3473464
 pkgrel=2
 pkgdesc="Magics is the latest generation of the ECMWF's Meteorological plotting software MAGICS."
@@ -14,8 +14,9 @@ depends=('expat' 'qt5-base' 'proj' 'fftw' 'pango' 'netcdf-cxx-legacy' 'eccodes' 
 optdepends=('libaec' 'odb_api')
 makedepends=('boost' 'gcc-fortran'  'python' 'cmake' 'python-jinja')
 source=(http://software.ecmwf.int/wiki/download/attachments/${_attnum}/${Pkgname}-${pkgver}-Source.tar.gz)
-md5sums=('3c1fe31f08ec2f06b0d669535679f787')
+md5sums=('d9939b45ca7183ae9086b445129ff8f7')
   
+ 
 
 build() {
   cd "$srcdir/${Pkgname}-${pkgver}-Source"
